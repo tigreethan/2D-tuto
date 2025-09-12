@@ -2663,15 +2663,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9a0e56ea6c2276408b3e620ba27afc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LeftAction:
-    m_Name: Left
-    m_Type: 1
-    m_ExpectedControlType: Button
-    m_Id: 48435eaa-4a17-479a-ade5-74cda2fb92b0
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings: []
-    m_Flags: 0
   MoveAction:
     m_Name: Move
     m_Type: 0
@@ -2690,7 +2681,7 @@ MonoBehaviour:
       m_Flags: 4
     - m_Name: up
       m_Id: 557f352d-3351-4ddf-ba22-3b57a100b9d5
-      m_Path: w
+      m_Path: <Keyboard>/w
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -2698,7 +2689,7 @@ MonoBehaviour:
       m_Flags: 8
     - m_Name: down
       m_Id: 15dd6429-f83a-4973-a136-a209421a2c23
-      m_Path: s
+      m_Path: <Keyboard>/s
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -2706,7 +2697,7 @@ MonoBehaviour:
       m_Flags: 8
     - m_Name: left
       m_Id: 8f927544-33bd-40b6-bb0b-136310d67203
-      m_Path: a
+      m_Path: <Keyboard>/a
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -2714,7 +2705,7 @@ MonoBehaviour:
       m_Flags: 8
     - m_Name: right
       m_Id: 33510909-d2d9-4be9-a84d-547aa207ae6f
-      m_Path: d
+      m_Path: <Keyboard>/d
       m_Interactions: 
       m_Processors: 
       m_Groups: 
