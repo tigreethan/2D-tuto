@@ -19,6 +19,5 @@ public class PlayerController : MonoBehaviour
         Debug.Log(move);
         Vector2 position = (Vector2)transform.position + move * 0.01f;
         transform.position = position;
-        
     }
 }
